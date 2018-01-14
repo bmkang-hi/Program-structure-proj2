@@ -1,0 +1,459 @@
+Script started on Fri Dec 02 01:38:45 2016
+uhx01% make -f proj2.mak clean
+rm *.o proj2 bankDB.txt
+proj2: No such file or directory
+bankDB.txt: No such file or directory
+make: *** [clean] Error 2
+uhx01% make -f proj2.mak  
+g++ -c proj2ui.cpp
+g++ -c llist.cpp
+g++ -o proj2 proj2ui.o llist.o
+uhx01% ./proj2
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 4
+
+Printing all record information...
+
+The list is empty.
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 1
+
+Adding a new record...
+
+Please enter the account number to add: ^[[4~^[[B^[[6~^[[D
+
+Invalid entry. Please enter a number.1234
+
+Please enter the name of the account holder under 25 characters: First M. Last
+
+Please enter the address of the account holder (fewer than 80 characters)
+Type '$' (US dollar sign, no quotes) to complete address entry
+123 Address Ave.
+Sacramae   mento C  , CA
+12345%^?$    $
+
+Please enter the account holders year of birth (between 1800 and 2016): 2012
+
+Record added successfully.
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 1
+
+Adding a new record...
+
+Please enter the account number to add: 3003
+
+Please enter the name of the account holder under 25 characters: Sir Albery ty  y   t Eyington III
+
+Please enter the address of the account holder (fewer than 80 characters)
+Type '$' (US dollar sign, no quotes) to complete address entry
+234 Rokenhill Pl.
+Glasgow, Scotland
+84935-31$
+
+Please enter the account holders year of birth (between 1800 and 2016): 1896
+
+Record added successfully.
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 1
+
+Adding a new record...
+
+Please enter the account number to add: 4444
+
+Please enter the name of the account holder under 25 characters: Sir Namingway Jr,
+
+Please enter the address of the account holder (fewer than 80 characters)
+Type '$' (US dollar sign, no quotes) to complete address entry
+43 Name Hwy.
+Fukuoka, Japan
+4933-204-2333$
+
+Please enter the account holders year of birth (between 1800 and 2016): 1997
+
+Record added successfully.
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 4
+
+Printing all record information...
+
+1234
+First M. Last
+123 Address Ave.
+Sacramento, CA
+12345
+2012
+
+4444
+Sir Namingway Jr,
+43 Name Hwy.
+Fukuoka, Japan
+4933-204-2333
+1997
+
+3003
+Sir Albert Eyington III
+234 Rokenhill Pl.
+Glasgow, Scotland
+84935-31
+1896
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 6
+
+Reversing list...
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 4
+
+Printing all record information...
+
+3003
+Sir Albert Eyington III
+234 Rokenhill Pl.
+Glasgow, Scotland
+84935-31
+1896
+
+4444
+Sir Namingway Jr,
+43 Name Hwy.
+Fukuoka, Japan
+4933-204-2333
+1997
+
+1234
+First M. Last
+123 Address Ave.
+Sacramento, CA
+12345
+2012
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 6
+
+Reversing list...
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 4
+
+Printing all record information...
+
+1234
+First M. Last
+123 Address Ave.
+Sacramento, CA
+12345
+2012
+
+4444
+Sir Namingway Jr,
+43 Name Hwy.
+Fukuoka, Japan
+4933-204-2333
+1997
+
+3003
+Sir Albert Eyington III
+234 Rokenhill Pl.
+Glasgow, Scotland
+84935-31
+1896
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 7
+
+Quitting program...
+uhx01% ./proj2
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 4
+
+Printing all record information...
+
+1234
+First M. Last
+123 Address Ave.
+Sacramento, CA
+12345
+2012
+
+4444
+Sir Namingway Jr,
+43 Name Hwy.
+Fukuoka, Japan
+4933-204-2333
+1997
+
+3003
+Sir Albert Eyington III
+234 Rokenhill Pl.
+Glasgow, Scotland
+84935-31
+1896
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 1
+
+Adding a new record...
+
+Please enter the account number to add: 5654
+
+Please enter the name of the account holder under 25 characters: Kilroy Lastinghaus
+
+Please enter the address of the account holder (fewer than 80 characters)
+Type '$' (US dollar sign, no quotes) to complete address entry
+33 Nokellich Rd.
+Juneau, Alaska
+44862$
+
+Please enter the account holders year of birth (between 1800 and 2016): 1962
+
+Record added successfully.
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 4
+
+Printing all record information...
+
+1234
+First M. Last
+123 Address Ave.
+Sacramento, CA
+12345
+2012
+
+4444
+Sir Namingway Jr,
+43 Name Hwy.
+Fukuoka, Japan
+4933-204-2333
+1997
+
+5654
+Kilroy Lastinghaus
+33 Nokellich Rd.
+Juneau, Alaska
+44862
+1962
+
+3003
+Sir Albert Eyington III
+234 Rokenhill Pl.
+Glasgow, Scotland
+84935-31
+1896
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 5
+
+Deleting existing record...
+
+Please enter the account number to delete: 3003
+
+1 record(s) deleted successfully.
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 4
+
+Printing all record information...
+
+1234
+First M. Last
+123 Address Ave.
+Sacramento, CA
+12345
+2012
+
+4444
+Sir Namingway Jr,
+43 Name Hwy.
+Fukuoka, Japan
+4933-204-2333
+1997
+
+5654
+Kilroy Lastinghaus
+33 Nokellich Rd.
+Juneau, Alaska
+44862
+1962
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 7 3
+
+Printing record information...
+
+Please enter the account number to print information from: 5654
+
+5654
+Kilroy Lastinghaus
+33 Nokellich Rd.
+Juneau, Alaska
+44862
+1962
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 2
+
+Modifying existing records address...
+
+Please enter the account number whose address you want to change: 1234
+
+Please enter the address of the account holder (fewer than 80 characters)
+Type '$' (US dollar sign, no quotes) to complete address entry
+New address$
+
+1 record(s) modified successfully.
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 3
+
+Printing record information...
+
+Please enter the account number to print information from: 1234
+
+1234
+First M. Last
+New address
+2012
+
+(1) Add a new record in the database
+(2) Modify a record in the database using the accountno as the key
+(3) Print information about a record using the accountno as the key
+(4) Print all information in the database
+(5) Delete an existing record from the database using the accountno as a key
+(6) Reverse the list order
+(7) Quit the program
+
+Please enter the number of the menu item to run: 6 7
+
+Quitting program...
+uhx01% exit
+uhx01% 
+script done on Fri Dec 02 01:43:37 2016
